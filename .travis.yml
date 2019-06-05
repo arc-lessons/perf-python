@@ -8,7 +8,6 @@ install:
 
 script:
   - nbfancy configure -y all_magic 
-  - nbfancy rerun --allow_errors
   - nbfancy render
   - nbfancy html
 
